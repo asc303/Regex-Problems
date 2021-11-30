@@ -13,7 +13,7 @@ namespace REGEXUserRegistration
             while (flag)
             {
                 Console.WriteLine("Welcome to the User Registration validation program");
-                Console.WriteLine("Enter the validation to Execute : \n 1. Candidate First Name \n 2. Candidate Last Name \n 3. Candidate Email \n 4. Exit");
+                Console.WriteLine("Enter the validation to Execute : \n 1. Candidate First Name \n 2. Candidate Last Name \n 3. Candidate Email \n 4. Mobile Number \n 5. Exit");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -27,6 +27,9 @@ namespace REGEXUserRegistration
                         Console.WriteLine(validation.ValidateEmail("Chauhansam94@gmail.com"));
                         break;
                     case 4:
+                        Console.WriteLine(validation.ValidateMobile("91 9696896592"));
+                        break;
+                    case 5:
                         flag = false;
                         break;
                 }
