@@ -18,25 +18,25 @@ namespace REGEXUserRegistration
                 switch (option)
                 {
                     case 1:
-                        Console.WriteLine(validation.ValidateFirstName("Gunasekhar"));
+                        Console.WriteLine(validation.ValidateFirstName("Ashutosh"));
                         break;
                     case 2:
-                        Console.WriteLine(validation.ValidateLastName("Satharajupalli"));
+                        Console.WriteLine(validation.ValidateLastName("Singh"));
                         break;
                     case 3:
-                        Console.WriteLine(validation.ValidateEmail("gunasekhar.abc@bl.co.in"));
+                        Console.WriteLine(validation.ValidateEmail("Chauhansam94@gmail.com"));
                         break;
                     case 4:
-                        Console.WriteLine(validation.ValidateMobile("91 9848032919"));
+                        Console.WriteLine(validation.ValidateMobile("91 9696896592"));
                         break;
                     case 5:
-                        Console.WriteLine(validation.ValidatePassword1("gunanani"));
+                        Console.WriteLine(validation.ValidatePassword1("Ashu"));
                         break;
                     case 6:
-                        Console.WriteLine(validation.ValidatePassword2("Gunanani"));
+                        Console.WriteLine(validation.ValidatePassword2("Ashu1"));
                         break;
                     case 7:
-                        Console.WriteLine(validation.ValidatePassword3("Gunanani9"));
+                        Console.WriteLine(validation.ValidatePassword3("Ashu2"));
                         break;
                     case 8:
                         flag = false;
